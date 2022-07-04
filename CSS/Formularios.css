@@ -1,0 +1,98 @@
+main{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #386641;
+    border-radius: 6px;
+    top: 9%;
+    left: 32%;
+    padding: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px aliceblue,
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+body{
+    background-color: #6A994E;
+}
+form{
+    position: relative;
+    width: 40%;
+    left: 20%;
+    top: 10%;
+    box-shadow: black;
+}
+input{
+    display: block;
+    height: 40px;
+    width: 250px;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    border: 1px solid var(--input-border);
+    transition: border .3s ease;
+    background-color: aliceblue;
+}
+select{
+    cursor: pointer;
+    height: 55px;
+    width: 282px;
+    padding: 8px 16px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    border: 1px solid var(--input-border);
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+}
+#submit{
+    display: block;
+    height: 40px;
+    width: 250px;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    border: 1px solid var(--input-border);
+    transition: border .3s ease;
+    background-color: #6A994E;
+    cursor: pointer;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px aliceblue,
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#submit:hover{
+    background-color: #386641;
+}
+#submit2{
+    display: block;
+    height: 40px;
+    width: 250px;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    border: 1px solid var(--input-border);
+    transition: border .3s ease;
+    background-color: #386641;
+    cursor: pointer;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px aliceblue,
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#submit2:hover{
+    background-color: #6A994E;
+}
